@@ -21,6 +21,7 @@ input.button {
     width: 48px; 
     height: 48px; 
     object-fit: cover; 
+    border-radius: 50%; /* Добавлено для круглой формы */
 }
 
 .clicker .coingold {
@@ -210,9 +211,9 @@ input.button {
     font-weight: 500;
 }
 
-.main .sidebar .sidebar__total--btn {
+.sidebar__total--btn {
     padding: 10px 16px;
-    border-radius: 12px;
+    border-radius: 50%; /* Изменено на 50% для круглой формы */
     border: none;
     font-size: 14px;
 }
