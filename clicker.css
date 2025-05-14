@@ -21,7 +21,7 @@ input.button {
     width: 60px; 
     height: 60px; 
     object-fit: cover; 
-    border-radius: 80%; /* Добавлено для круглой формы */
+    border-radius: 80%; 
 }
 
 .clicker .coingold {
@@ -146,9 +146,9 @@ input.button {
 
 .main .clicker {
     display: flex;
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    height: 100vh; /* Ensure it takes full height of the viewport */
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
 }
 
 .main .clicker__icon {
@@ -202,20 +202,20 @@ input.button {
     flex-direction: column;
 }
 .circle-button {
-    width: 500px; /* Size of the button */
-    height: 500px; /* Size of the button */
-    border-radius: 50%; /* Make it circular */
+    width: 500px;
+    height: 500px; 
+    border-radius: 50%; 
     background-image: url('https://rent-car.kiev.ua/wp-content/uploads/2017/07/Mercedes-Benz-G500-AMG-63-stile.jpg'); /* Replace with your image URL */
-    background-size: cover; /* Cover the entire button */
-    background-position: center; /* Center the image */
+    background-size: cover; 
+    background-position: center;
     border: none;
     cursor: pointer;
-    transition: transform 0.2s; /* Animation effect */
+    transition: transform 0.2s; 
 }
 
 
 .circle-button:active {
-    transform: scale(0.95); /* Scale down effect on click */
+    transform: scale(0.95); 
 }
 
 .main .sidebar__card:has(.sidebar__total--btn:hover) {
@@ -229,7 +229,7 @@ input.button {
 
 .sidebar__total--btn {
     padding: 10px 16px;
-    border-radius: 50%; /* Изменено на 50% для круглой формы */
+    border-radius: 50%; 
     border: none;
     font-size: 14px;
 }
